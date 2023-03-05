@@ -4,61 +4,72 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Figma Lend</title>
+    <title>Figma Land</title>
     <link rel="shortcut icon" href="https://placekitten.com/96/139" type="image/x-icon">
 </head>
 <body>
-        <header>
-          <img src="img/rectangle4.png" alt="logo">
+        <header class="header">
+          <nav class="header__top-nav">
+            <a href="#" class="header__home">Home</a>
+            <a href="#" class="header__product">Product</a>
+            <a href="#" class="header__pricing">Pricing</a>
+            <a href="#" class="header__about">About</a>
+            <a href="#" class="header__contact">Contact</a>
+            <img class="header__image-logo"  src="img/figmaland-logo.png" alt="logo FigmaLand">
+            <div class="header__social-icon icons">
+                <img src="img/icon-twitter.png" alt="Twitter Icon" class="icons__icon-twitter">
+                <img src="img/icon-facebook.png" alt="Facebook Icon" class="icons__icon-facebook">
+                <img src="img/icon-instagram.png" alt="Instagram Icon" class="icons__icon-instagram">
+            </div>
+                <h2 class="header__title title">The best products start with Figma</h2>
+                <p class="header__sub-title sub-title"> Most calendars are designed for teams.</p>
+                <button class="header__button-try button-try" type = "button" name = "try-for-free" >Try For Free</button>
+        </nav>
         </header>
-        <div>
-            <h1>The best products start with Figma</h1>
-            <p> Most calendars are designed for teams.</p>
-            <button type = "button" name = "try-for-free" >Try For Free</button>
-        </div>
     <section class="features">
-        <header>
-            <h2>Features</h2>
-        </header>
-        <p>Most calendars are designed for teams. </p>
-        <img src="img/screen.png" alt="screen">
+            <h2 class="features__title title">Features</h2>
+            <p class="features__sub-title sub-title">Most calendars are designed for teams. </p>
+            <img class="features__img-videoscreen" src="img/video-screen.png" alt="Video Screen">
         <div>
-            <img src="img/vector.png" alt="vector1">
-            <p>OpenType features Variable fonts</p>
-            <p>Slate helps you see how many more days you need to work to reach your financial goal.</p>
-         </div>
-         <div>
-            <img src="img/vector2.png" alt="vector2">
-            <p>Design with real data</p>
-            <p>Slate helps you see how many more days you need to work to reach your financial goal.</p>
-         </div>
-         <div>
-            <img src="img/vector3.png" alt="vector3">
-            <p>Fastest way to take action</p>
-            <p>Slate helps you see how many more days you need to work to reach your financial goal.</p>
-         </div>      
-         <div>
-            <p>Fastest way to organize </p>
-            <p> Most calendars are designed for teams. </p>
-            <button type = "button" name = "try-for-free">Try For Free</button>
-            
-             <img src="img/macbook_pro.png" alt="screen-Mask">
-         </div>
-    </section>
-    <section class="Newsletter ">
-        <div>
-            <p>At your fingertips</p>
-            <h2>Newsletter </h2>
-            <p>Most calendars are designed for teams.Slate is designed for freelancers</p>
-            <img src="img/screen_content.png" alt="screen-content">       
-            <p>Subscribe to our Newsletter</p>
-            <p>Available exclusivery on Figmaland</p>    
-            <input type="text" placeholder="Your Email" required>
-            <button type="submit">Subscribe</button>
+            <div class="features__icons icons">
+               <img class="icons__functions" src="img/circle-square-icon.png" alt="Circle Square Icon">
+               <h3 class="icons__title">OpenType features Variable fonts</h3>
+               <p class="icons__text">Slate helps you see how many more days you need to work to reach your financial goal.</p>
+            </div>
+            <div>
+               <img src="img/vector2.png" alt="vector2">
+               <h3 class="icons__title">Design with real data</h3>
+               <p class="icons__text" >Slate helps you see how many more days you need to work to reach your financial goal.</p>
+            </div>
+            <div>
+               <img src="img/vector3.png" alt="vector3">
+               <h3 class="icons__title" >Fastest way to take action</h3>
+               <p class="icons__text">Slate helps you see how many more days you need to work to reach your financial goal.</p>
+            </div>      
         </div>
-        <div>
-            <p>Partners</p>
-            <p>Most calendars are designed for teams.Slate is designed for freelancers</p>
+   </section>
+   <section class="organize">
+        <h2 class="organize__title title" >Fastest way to organize </h2>
+        <p class="organize__sub-title sub-title" > Most calendars are designed for teams. </p>
+        <button class="organize__button-try button-try" type = "button" name = "try-for-free">Try For Free</button>
+        <img class="organize__macbook-pro" src="img/macbook_pro.png" alt="Screen Mask">
+    </section>    
+    
+    <section class="newsletter ">
+        <p class="newsletter__introduction" >At your fingertips</p>
+        <h2 class="newsletter__title title" >Newsletter </h2>
+        <p class="newsletter__sub-title sub-title" >Most calendars are designed for teams.Slate is designed for freelancers</p>
+        <img class="newsletter__img-mil-list" src="img/mailing-list.png" alt="Mail list img">       
+        <p class="newsletter__subscription" >Subscribe to our Newsletter</p>
+        <p class="newsletter__text" >Available exclusivery on Figmaland</p>    
+        <div class="newsletter__subscribe subscribe">
+            <input class="subscribe__mail" type="text" placeholder="Your Email" required>
+            <button class="subscribe__button" type="submit">Subscribe</button>
+        </div>
+    </section>    
+    <section class="partners">
+            <h2 class="partners__title title">Partners</h2>
+            <p class="partners__sub-title sub-title">Most calendars are designed for teams.Slate is designed for freelancers</p>
             <p>Client Name</p>
             <img src="img/google.png" alt="google">    
             <p>Client Name</p>
@@ -66,7 +77,7 @@
             <p>Client Name</p>
             <img src="img/microsoft.png" alt="microsoft"> <br>
             <button class="try-for-free" >Try For Free</button>
-        </div>
+    </section>    
         <div>
             <p>Testimonials</p>
             <img src="img/logos_ibm.png" alt="ibm">  
@@ -132,7 +143,7 @@
                 <input type = "submit" name = "submit" value = "Send">
               </form>
         </div>
-    </section>
+    
     <footer>
         <div>
             <p>Annette Steward</p>
