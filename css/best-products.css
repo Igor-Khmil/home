@@ -1,7 +1,7 @@
 .header {
     background-image: url(../img/background-first.png);
     width: 418px;
-    min-height: 847px;
+    min-height: 863px;
     background-size: cover;
     background-position: center;
       }
@@ -22,6 +22,8 @@
     text-align: center;
     font-family: monospace;
     letter-spacing: 0.2px; 
+    font-weight: bold;
+    
 }
 
 .header__sub-title {

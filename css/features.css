@@ -4,10 +4,13 @@
     line-height: 55px;
     margin-top: 91px;
     text-align: center;
+    font-weight: bold;
 }
 
 .features {
     width: 418px;
+    height: 1600px;
+    
 }
 
 .features__sub-title {

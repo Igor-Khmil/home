@@ -1,0 +1,29 @@
+.organize__title {
+    width: 418px;
+    font-size: 48px;
+    line-height: 55px;
+    margin-top: 91px;
+    text-align: center;
+    font-weight: bold;
+    }
+
+.organize {
+    width: 418px;
+    height: 800px;
+    }
+
+.organize__sub-title {
+    width: 265px;
+    margin: 27px auto 0px auto;
+    font-size: 25px;
+    line-height: 40px;
+    }
+  
+.organize__macbook-pro {
+    margin: 59px auto 0px;
+    width: 372px;
+    height: 225px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
