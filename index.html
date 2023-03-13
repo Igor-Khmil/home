@@ -59,9 +59,9 @@
         <p class="organize__sub-title sub-title" > Most calendars are designed for teams. </p>
         <button class="organize__button-try button-try" type = "button" name = "try-for-free">Try For Free</button>
         <img class="organize__macbook-pro" src="img/macbook_pro.png" alt="Screen Mask">
-    </section>    
+   </section>    
     
-    <section class="newsletter container ">
+   <section class="newsletter container ">
         <p class="newsletter__introduction" >At your fingertips</p>
         <h2 class="newsletter__title title" >Newsletter </h2>
         <p class="newsletter__sub-title sub-title" >Most calendars are designed for teams.Slate is designed for freelancers</p>
@@ -78,7 +78,7 @@
             <p class="partners__sub-title sub-title">Most calendars are designed for teams.Slate is designed for freelancers</p>
             <div class="partners__clients">
                 <p class="clients__name">Client Name</p>
-                <img src="img/google.png" alt="google image">
+                <img class="clients__img-google" src="img/google.png" alt="google image">
             </div>        
             <div class="partners__clients">
                 <p class="clients__name">Client Name</p>
@@ -96,42 +96,51 @@
             <p class="tertimonials__text" >Most calendars are designed for teams.Slate is designed for freelancers who want a simple way to plan their schedule.</p>
             <div class="ui-designer">
                 <img class="ui-designer__photo" src="img/ellipse.png" alt="UI designer photo">  
-                <p class="ui-desidner__text" >Organize across</p>
-                <p class="ui-desidner__position" >Ui designer</p>
+                <div class="ui-designer__description" >
+                    <p class="ui-designer__text" >Organize across</p>
+                    <p class="ui-designer__position" >Ui designer</p>
+                </div>    
             </div>
             <button class="testimonials__button">More Testimonials</button>
     </section>
     <section class="pricing container">   
-        <h2 class="pricing__title title">Pricing</h2>
-        <p class="pricing__sub-title sub-title">Most calendars are designed for teams. </p> 
-            <div class="pricing__services">
+        <h2 class="pricing__title ">Pricing</h2>
+        <p class="pricing__sub-title">Most calendars are designed for teams. </p> 
+        <div class="pricing__services">
                 <div class="services__levels">
                     <p class="levels__title">FREE</p>
                     <p class="levels__text">Organize across all apps by hand</p>
                 </div>    
-                div.pricing_per-month
-               <p>0</p>
-               <p>$</p>
-            <p>Per Month</p>
-            <p>Pricing Feature</p>
-            <p>Pricing Feature</p>
-            <p>Pricing Feature</p>
-            <p>Pricing Feature</p>
-            <p>Pricing Feature</p>
-            <button type = "button" name = "Order-Now">Order Now</button>
+                <div class="pricing_per-month">
+                    <p class="pricing__price">0</p>
+                    <p class="pricing__currency">$</p>
+                    <p class="pricing__month">Per Month</p>
+                </div>
+                <ul class="pricing__feature">
+                   <li>Pricing Feature</li>
+                   <li>Pricing Feature</li>
+                   <li>Pricing Feature</li>
+                   <li>Pricing Feature</li>
+                   <li>Pricing Feature</li>
+                </ul> 
+                 <button type = "button" name = "Order-Now">Order Now</button>
         </div>
-        <div>
-            <p>STANDARD</p>
-            <p>Organize across all apps by hand</p>
-            <p>10</p>
-            <p>$</p>
-            <p>Per Month</p>
-            <p>Pricing Feature</p>
-            <p>Pricing Feature</p>
-            <p>Pricing Feature</p>
-            <p>Pricing Feature</p>
-            <p>Pricing Feature</p>
-            <button type = "button" name = "Order-Now">Order Now</button>
+        <div class="standart container">
+            <p class="standart__title">STANDARD</p>
+            <p class="standart__sub-title">Organize across all apps by hand</p>
+            <div class="pricing_per-month">
+                <p class="pricing__price">10</p>
+                <p class="pricing__currency">$</p>
+                <p class="pricing__month">Per Month</p>
+            </div>
+            <ul class="pricing__feature">
+                <li>Pricing Feature</li>
+                <li>Pricing Feature</li>
+                <li>Pricing Feature</li>
+                <li>Pricing Feature</li>
+                <li>Pricing Feature</li>
+             </ul>
+            <button class="standart__button" type = "button" name = "Order-Now">Order Now</button>
         </div>
         <div>
             <p>BUSINESS</p>

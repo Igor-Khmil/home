@@ -1,0 +1,64 @@
+.testimonials {
+    min-width: 320px;
+}
+
+.testimonials__title {
+    min-width: 320px;
+    font-size: 48px;
+    line-height: 55px;
+    margin-top: 91px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.tertimonials_ibm-logos {
+    width: 127px;
+    height: 51px;
+    margin: 105px auto 0;
+}
+
+.tertimonials__text {
+    font-weight: 700px;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    margin: 54px auto 0;
+ }
+
+.ui-designer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 140px;
+    margin: 53px auto 0;
+ }
+
+.ui-designer__photo {
+    width: 42px;
+    height: 42px;
+}
+
+.ui-designer__text {
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 15px;
+}
+
+.ui-designer__position {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 23px;
+ }
+
+.testimonials__button {
+    background-color: #2091F9;
+    width: 236px;
+    height: 52px;
+    border-radius: 25px;
+    font-size: 20px;
+    line-height: 20px;
+    color: white;
+    background-size: cover;
+    display: block;
+    margin: 69px auto;
+} 
