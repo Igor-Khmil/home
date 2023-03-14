@@ -9,10 +9,10 @@
  }
 
 :root {
-
     --footer-color: white;
+    --section-background-color: #252B42;
+    
     font-family: monospace;
-
  }
 
 img {
