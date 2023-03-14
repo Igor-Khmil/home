@@ -1,0 +1,63 @@
+.contact {
+    min-width: 320px;
+    margin: 0px 15px 0px 15px;
+}
+.contact__title {
+    
+    font-size: 48px;
+    line-height: 55px;
+    margin-top: 91px;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+.contact__sub-title {
+    margin: 27px auto 0px auto;
+    font-size: 25px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.contact__social-groups {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 74px 100px 92px 100px;
+   
+    
+}
+
+.contact__social-groups__twitter {
+    width: 32px;
+    height: 32px;
+}
+
+.contact__social-groups__facebook {
+    width: 32px;
+    height: 32px;   
+}
+
+.contact__social-groups__linkedin {
+    width: 32px;
+    height: 32px;      
+}
+
+.contact__place {
+    display: grid;
+    grid-template-columns: 1fr 15fr;
+    padding-bottom: 20px;
+   
+}
+
+.contact__place__icon-place {
+    width: 26px;
+    height: 32px;
+}
+
+.contact__place__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+}
+

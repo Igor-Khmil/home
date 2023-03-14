@@ -123,43 +123,49 @@
                    <li class="pricing__list" >Pricing Feature</li>
                    <li class="pricing__list" >Pricing Feature</li>
                 </ul> 
-                 <button type = "button" name = "Order-Now">Order Now</button>
+                 <button class="pricing_button" type = "button" name = "Order-Now">Order Now</button>
         </div>
-        <div class="standart container">
-            <p class="standart__title">STANDARD</p>
-            <p class="standart__sub-title">Organize across all apps by hand</p>
+        <div class="pricing__services">
+            <p class="pricing__services__title">STANDARD</p>
+            <p class="pricing__services__text">Organize across all apps by hand</p>
             <div class="pricing_per-month">
                 <p class="pricing__price">10</p>
-                <p class="pricing__currency">$</p>
-                <p class="pricing__month">Per Month</p>
+                <div class="pricing__per-month__money">
+                    <p class="pricing__currency">$</p>
+                    <p class="pricing__month">Per Month</p>
+                </div>
+            </div>    
+            <ul class="pricing__feature">
+                <li class="pricing__list">Pricing Feature</li>
+                <li class="pricing__list">Pricing Feature</li>
+                <li class="pricing__list">Pricing Feature</li>
+                <li class="pricing__list">Pricing Feature</li>
+                <li class="pricing__list">Pricing Feature</li>
+             </ul>
+            <button class="pricing_button" type = "button" name = "Order-Now">Order Now</button>
+        </div>
+        <div class="pricing__services">
+            <p class="pricing__services__title">BUSINESS</p>
+            <p class="pricing__services__text">Organize across all apps by hand</p>
+            <div class="pricing_per-month">
+                <p class="pricing__price">99</p>
+                <div class="pricing__per-month__money">
+                    <p class="pricing__currency">$</p>
+                    <p class="pricing__month">Per Month</p>
+                </div>
             </div>
             <ul class="pricing__feature">
-                <li>Pricing Feature</li>
-                <li>Pricing Feature</li>
-                <li>Pricing Feature</li>
-                <li>Pricing Feature</li>
-                <li>Pricing Feature</li>
-             </ul>
-            <button class="standart__button" type = "button" name = "Order-Now">Order Now</button>
-        </div>
-        <div class="business container">
-            <p class="business__title">BUSINESS</p>
-            <p class="business__sub-title">Organize across all apps by hand</p>
-            <p class="business__price">99</p>
-            <p class="business__currency">$</p>
-            <p class="business__month">Per Month</p>
-            <ul class="bisiness__feature">
-                <li>Pricing Feature</li>
-                <li>Pricing Feature</li>
-                <li>Pricing Feature</li>
-                <li>Pricing Feature</li>
-                <li>Pricing Feature</li>
+                <li class="pricing__list">Pricing Feature</li>
+                <li class="pricing__list">Pricing Feature</li>
+                <li class="pricing__list">Pricing Feature</li>
+                <li class="pricing__list">Pricing Feature</li>
+                <li class="pricing__list">Pricing Feature</li>
             </ul>
-            <button class="business__button" type = "button" name = "Order-Now">Order Now</button>
+            <button class="pricing_button" type = "button" name = "Order-Now">Order Now</button>
         </div>
     </section> 
-        <div class="contact container">
-            <p class="contact__title" >Contact Us</p>
+    <section class="contact container">
+             <p class="contact__title" >Contact Us</p>
             <p class="contact__sub-title" >Most calendars are designed for teams.</p>
             <div class="contact__social-groups">
                 <img class="contact__social-groups__twitter" src="img/twitter-icon.png" alt="twitter icon"> 
@@ -170,13 +176,13 @@
                 <img class="contact__place__icon-place" src="img/icon_place.png" alt="icon-place"> 
                 <p class="contact__place__text" >6386 Spring St undefined Anchorage, Georgia 12473 United States</p>
             </div >
-            <div class="contact__phone">
-                <img class="contact__phone__icon-phone" src="img/icon_phone.png" alt="icon-phone"> 
-                <p class="contact__phone__number" >(843) 555-0130</p>
+            <div class="contact__place">
+                <img class="contact__place__icon-place" src="img/icon_phone.png" alt="icon-phone"> 
+                <p class="contact__place__text" >(843) 555-0130</p>
             </div>    
-            <div class="contact__email" >    
-                <img class="contact__email__icon-email" src="img/icon_email.png" alt="icon-email"> 
-                <p class="contact__email__address">willie.jennings@example.com</p>
+            <div class="contact__place" >    
+                <img class="contact__place__icon-place" src="img/icon_email.png" alt="icon-email"> 
+                <p class="contact__place__text">willie.jennings@example.com</p>
             </div>  
             <form class="contact__us" >
                 <input class="contact__us__your-name" type = "text"  name = "Your Name" value="Your Name"> <br> <br>
@@ -184,8 +190,7 @@
                 <textarea class="contact__us__your-message" name= "user_message" placeholder="your message"></textarea> <br> <br>
                 <input class="contact__us__button-send" type = "submit" name = "submit" value = "Send">
             </form>
-        </div>
-    
+     </section>
     <footer>
         <div class="footer">
             <ul class="footer__people">

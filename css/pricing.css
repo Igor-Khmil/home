@@ -24,9 +24,9 @@
     text-align: center;
 }
 
-.pricing__services {
+.pricing__services  {
     background: var(--footer-color);
-    margin: 108px 40px 0 40px;
+    margin: 108px 40px 40px 40px;
     border-radius: 10px;
 }
 
@@ -75,6 +75,8 @@
 
 .pricing__feature {
     list-style-type: none;
+    overflow: hidden;
+    text-align: center;
  
    
 
@@ -89,3 +91,19 @@
 
 
 }
+
+.pricing_button {
+    background-color: #2091F9;
+    width: 236px;
+    height: 52px;
+    border-radius: 25px;
+    font-size: 20px;
+    line-height: 20px;
+    color: white;
+    background-size: cover;
+    display: block;
+    margin: 69px auto;
+    gap: 40px;
+    
+}
+
