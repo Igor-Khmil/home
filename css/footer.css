@@ -1,3 +1,61 @@
-.footer__people {
+.footer {
     background: #252B42;
+    display: flex;
+    flex-direction: column;
+    min-width: 320px;
+    color: #ffffff;
 }
+
+li {
+    list-style-type: none;
+   
+  }
+
+  .footer__people {
+    text-align: center;
+    font-size: 15px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    padding-top: 83px;
+
+  }
+
+  .footer__people :first-child {
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 700;
+  
+
+}
+
+.footer__address {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 85px;
+    
+}
+
+.footer__address__icon-place {
+    padding-left: 20px;
+    width: 15%;
+}
+
+.footer__phone {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.footer__phone__icon-phone {
+    width: 15%;
+    padding-left: 20px;
+}
+
+.footer__social-groups {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 45px auto 130px auto;
+}
+
